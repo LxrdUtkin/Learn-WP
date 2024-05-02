@@ -1,0 +1,30 @@
+@import "_global";
+
+body {
+  @include lib-reset-spacing;
+  @include lib-css(font-weight, $font-weight__regular);
+  font-family: 'Roboto', sans-serif;
+  transition: all .35s ease-in-out;
+  position: relative;
+
+  * {
+    transition: all .35s ease-in-out;
+    position: relative;
+  }
+}
+
+a {
+  @include lib-text-decoration-none;
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}

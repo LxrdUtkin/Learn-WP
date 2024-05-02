@@ -1,0 +1,14 @@
+assets/css/styles.css
+node_modules
+
+*.log
+*.sql
+*.sqlite
+cache
+package-lock.json
+package.json
+.DS_Store
+.idea
+vendor
+composer.lock
+.htaccess

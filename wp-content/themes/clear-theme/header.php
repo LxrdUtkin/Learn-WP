@@ -1,0 +1,1 @@
+<?php get_template_part('inc/frontend/headers/global-header', '', (!empty($args)) ? $args : []); ?>
